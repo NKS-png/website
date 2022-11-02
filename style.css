@@ -13,7 +13,7 @@ h1{
   0px -10px 20px rgba(232, 61, 255),
   0px -15px 30px rgb(141, 168, 255);
   animation: effect 3s ease;
-  box-shadow: rgb(113, 238, 255) 0px 15px 6px 0px inset
+  box-shadow: rgb(0, 0, 0) 0px 15px 6px 0px inset
 }
 .box {
     margin-bottom: 50px;
@@ -24,7 +24,7 @@ h1{
 }
 h2{
   text-transform: uppercase;
-  color: aliceblue;
+  color: rgb(202, 202, 202);
   font-size: 6em;
   position: absolute;
   top: 20%;
@@ -37,7 +37,7 @@ h2{
   0px -10px 20px rgba(232, 61, 255),
   0px -15px 30px rgb(0, 57, 245);
   animation: effect 3s ease; 
-  box-shadow: rgb(113, 238, 255) 0px 15px 6px 0px inset
+  box-shadow: rgb(95, 19, 19) 0px 15px 6px 0px inset
 }
 .fishes{
     position: absolute;
@@ -61,4 +61,16 @@ p{
     0px -15px 30px rgb(0, 57, 245);
     animation: effect 3s ease; 
     box-shadow: rgb(113, 238, 255) 0px 15px 6px 0px inset 
+}
+.box2 {
+  top: 0%;
+  width: 100%;
+  height: 130px;
+  background-image: linear-gradient(rgb(0, 0, 0),rgb(35, 35, 35));
+}
+.box3 {
+  top: 190;
+  width: 100%;
+  height: 210px;
+  background-image: linear-gradient(rgb(0, 0, 0),rgb(95, 19, 19));
 }
